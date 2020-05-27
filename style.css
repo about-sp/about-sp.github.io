@@ -1,0 +1,463 @@
+.bg img{
+position: absolute;
+width: 100%;
+top:-10%;
+left:0%;
+pointer-events: none;
+user-select: none;
+}
+
+.bg_white img{
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin-top:50%;
+  left:0%;
+  pointer-events: none;
+  user-select: none;
+}
+
+/*                                                 Blocks on website*/
+
+.banner{
+  position: absolute;
+  top:70%;
+  left:0px;
+  width:100%;
+  background: white;
+  height: 310px;
+  -webkit-box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+  box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+}
+
+.banner_up{
+position: absolute;
+width: 35%;
+height:120px;
+background: #1d7ad1 ;
+top:65%;
+left:33%;
+
+border-radius: 20px;
+}
+
+.banner_up a{
+position: absolute;
+font-size: 170% ;
+color: white;
+width:100%;
+text-align: center;
+font-family: Arial;
+padding: 5px;
+}
+
+.img-10 img{
+position: absolute;
+margin-top:7%;
+margin-left:28%;
+user-select: none;
+pointer-events: none;
+width: 40%;
+height: 30%;
+}
+
+.txt-sp a{
+position: absolute;
+font-size: 300%;
+color: white;
+width:100%;
+top:35%;
+text-align: center;
+font-family: Arial;
+}
+
+.sp-homepage a{
+  position: absolute;
+  font-size: 250%;
+  color: white;
+  left:0px;
+  top:0%;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.txt-1 a{
+position: absolute;
+font-size:20px;
+margin-left:33%;
+top:35%;
+color: black;
+font-family: Arial;
+}
+
+.img-08 img{
+position: absolute;
+width: 400px;
+max-width: 25%;
+top:69%;
+left:5%;
+}
+.txt-h1-1{
+position: absolute;
+color: black;
+top:5%;
+margin-left:33%;
+font-family: Arial;
+}
+
+.all-recorce{
+position: absolute;
+top:3%;
+margin-left:50%;
+transform: translate(-50%, -50%);
+}
+
+.all-recorce button{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  background: #1d7ad1;
+  border:none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s;
+}
+.all-recorce button:hover{
+  background: #3797f0;
+}
+
+.all-recorce ul{
+position: absolute;
+margin: 0;
+padding: 0;
+width: 100%;
+transform-origin: top;
+transition: 0.5s;
+transform: perspective(1000px) rotateX(-90deg);
+background: white;
+}
+
+
+
+
+.all-recorce ul.active{
+transform: perspective(1000px) rotateX(0deg);
+
+}
+.all-recorce ul li{
+  list-style: none;
+}
+
+
+
+.all-recorce ul li a{
+  display:block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-family: Arial;
+transition: 0.5s ease;
+}
+
+.all-recorce ul li a:hover{
+background: #262626;
+color:white;
+}
+
+
+.estol a{
+position: absolute;
+text-decoration: none;
+top:1%;
+color:white;
+left:91%;
+font-family: Arial;
+}
+
+fon-04:before, .fon-04:after{
+ content: '';
+ background: #4ab5f7;
+ width: 449px;
+ height: 551px;
+ top:0px;
+ position: absolute;
+ opacity: 0;
+ left:0;
+transition: .5s;
+}
+
+.img-04 img{
+  transition: 0.5s ease;
+    max-width: 449px;
+    max-height: 551px;
+}
+
+.img-04{
+position: absolute;
+border: solid 2px white;
+top:110%;
+max-height: 54.6%;
+margin-left:9.5%;
+overflow: hidden;
+transition: 0.5s ease;
+max-width: 449px;
+max-height: 551px;
+
+}
+
+
+a.txt-04{
+position: absolute ;
+top:20%;
+left:70px;
+opacity: 0;
+color:white;
+font-family: Arial;
+font-size:50px;
+  transition: 0.5s ease;
+text-decoration: none;
+}
+
+a.txt-04:before{
+   content: '';
+position: absolute;
+top:50%;
+opacity: 0;
+font-family: Arial;
+font-size:50px;
+}
+
+a.txt-04:hover::before{
+  transition: 0.5s ease;
+}
+.img-04:hover a.txt-04{
+  opacity: 5;
+  transition: 0.5s ease;
+}
+
+.img-04:hover img{
+  transform:scale(1.2);
+
+  transition: 0.5s ease;
+}
+
+.img-04:hover .fon-04::after{
+position: absolute;
+transition: .5s;
+opacity: .6;
+}
+
+.img-06 img{
+  transition: 0.5s ease;
+}
+
+.img-06{
+position: absolute;
+border: solid 2px white;
+max-height: 54.6%;
+top:110%;
+left:66%;
+
+transition: 5s linear;
+overflow: hidden;
+max-width: 429px;
+max-height: 551px;
+}
+
+a.txt-06{
+position: absolute ;
+top:20%;
+left:70px;
+opacity: 0;
+color:white;
+font-family: Arial;
+font-size:50px;
+transition: 0.5s ease;
+text-decoration: none;
+}
+
+a.txt-06:before{
+   content: '';
+position: absolute;
+top:50%;
+opacity: 0;
+font-family: Arial;
+font-size:50px;
+transition: 0.5s ease;
+}
+
+a.txt-06:hover::before{
+  transition: 0.5s ease;
+}
+.img-06:hover a.txt-06{
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.img-06:hover img{
+  transform:scale(1.2);
+
+  transition: 0.5s ease;
+}
+
+.img-06:hover .fon-04::after{
+position: absolute;
+transition: .5s;
+opacity: .6;
+}
+
+
+.img-02 img{
+  transition: 0.5s ease;
+}
+
+.img-02{
+position: absolute;
+border: solid 2px white;
+top:110%;
+max-height: 54.6%;
+left:38%;
+overflow: hidden;
+transition: 0.5s ease;
+max-width: 449px;
+max-height: 551px;
+}
+
+
+
+a.txt-02{
+position: absolute ;
+top:20%;
+left:70px;
+opacity: 0;
+color:white;
+font-family: Arial;
+font-size:50px;
+transition: 0.5s ease;
+text-decoration: none;
+}
+
+a.txt-02:before{
+   content: '';
+position: absolute;
+top:50%;
+opacity: 0;
+font-family: Arial;
+font-size:50px;
+transition: 0.5s ease;
+}
+
+a.txt-02:hover::before{
+  transition: 0.5s ease;
+}
+.img-02:hover a.txt-02{
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.img-02:hover img{
+  transform:scale(1.2);
+
+  transition: 0.5s ease;
+}
+
+
+.img-02:hover .fon-04::after{
+position: absolute;
+transition: .5s;
+opacity: .6;
+}
+
+#disqus_thread{
+  width: 50%;
+top:260%;
+margin-left: 25%;
+position: absolute;
+}
+
+.mods h4 a{
+  position: absolute;
+  font-size: 300%;
+  color: white;
+  top:170%;
+  left:47%;
+  text-align: center;
+  font-family: Arial;
+  color: #1d7ad1;
+  text-decoration: none
+}
+
+.texture h4 a{
+  position: absolute;
+  font-size: 300%;
+  top:170%;
+  left:15%;
+  font-family: Arial;
+  color: #1d7ad1;
+  text-decoration: none
+}
+
+.city h4 a{
+  position: absolute;
+  font-size: 300%;
+  top:170%;
+  left:74%;
+  font-family: Arial;
+  color: #1d7ad1;
+  text-decoration: none
+}
+
+.banner_down{
+  position: absolute;
+  top:190%;
+  left:0px;
+  width:100%;
+  background: #1d7ad1;
+  height: 510px;
+  -webkit-box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+  box-shadow: 0px 6px 28px -12px rgba(0,0,0,1);
+
+}
+
+
+.rеklama img{
+position: absolute;
+top:190%;
+width: 20%;
+left:40%;
+
+}
+
+.reklama_txt a{
+position: absolute;
+top:230%;
+left:27%;
+font-family: Arial;
+color: white;
+font-size:30px;
+font-weight: bold;
+}
+
+.bg_white_second img{
+position: absolute;
+left:0px;
+top:75%;
+width: 100%;
+}
+
+.comment{
+position: absolute;
+top:248%;
+left:36%;
+font-weight: bold;
+font-size: 30px;
+font-family: Arial;
+color: #1d7ad1;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' media='screen and (min-width: 1280px) and (max-width: 1820px)' href='small.css' />
+    <meta charset="utf-8">
+    <title>#СП4</title>
+  </head>
+  <body style="overflow-x: hidden;">
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+    <!--backgrounds-->
+    <!--Beens-->
+    <div class="bg"> <img src="bg.png" alt=""> </div>
+      <!--white background -->
+    <div class="bg_white"> <img src="bg-01.png" alt=""></div>
+    <div class="bg_white_second"> <img src="bg-01.png" alt=""></div>
+    <div class="img-10"><img src="img-10.png" alt=""></div>
+    <!--Banner on the website-->
+
+
+
+    <div class="banner_up"> <a>Добро пожаловать</a> </div>
+    <div class="banner"><div class="txt-h1-1"> <h1>Для чего этот сайт?</h1> </div>
+    <div class="txt-1"> <a>Этот сайт сделан с целью упростить вам поиск нужной
+      <br>информации о СП, предоставить вам удобный доступ<br>
+      к ресурсам #СП4 как например <br> корды городов, текстур паки и многое другое!</a> </div>
+
+    </div>
+    <div class="banner_down"></div>
+    <div class="estol"> <a href="https://vk.com/estol_mp">сайт сделал Эстол</a> </div>
+    <!--Buttons-->
+    <div class="sp-homepage"> <a href="index.html">#СП4</a> </div>
+    <div class="all-recorce">
+        <button onclick="myFunction()" class="dropbtn">Ресурсы сайта</button>
+        <div id="myDropdown" class="dropdown-content">
+        <ul>
+            <li> <a href="#">Текстуры</a></li>
+            <li> <a href="#">Города</a></li>
+            <li> <a href="#">Моды</a></li>
+            <li> <a href="#">Сайты</a></li>
+        </ul>
+        </div>
+    </div>
+
+    <!---->
+
+      <!--images-->
+    <div class="img-08" > <img src="img-08.png" alt="" width="30%"> </div>
+    <div class="rеklama"> <img src="img-13.png" alt=""> </div>
+
+
+
+
+    <div  class="img-06" data-aos="flip-left"> <img src="img-06.png" alt="">
+    <div class="fon-04"></div>
+    <a href="#" class="txt-06" title="нажми для перехода на вкладку">
+    Просмотреть список городов <br> &nbsp; &nbsp;	&nbsp; #СП4 </a>
+    </div>
+
+    <div  class="img-04" data-aos="flip-left">
+    <img src="img-04.png" alt="">
+    <div class="fon-04"></div>
+    <a class="txt-04" href="texture.html" title="нажми для перехода на вкладку">
+    Просмотреть текстур паки <br> &nbsp;	&nbsp;	&nbsp;	#СП4</a>
+    </div>
+
+    <div  class="img-02" data-aos="flip-left">
+    <img src="img-02.png" alt="">
+    <div class="fon-04"></div>
+    <a href="#" class="txt-02" title="нажми для перехода на вкладку">
+    Просмотреть список модов <br>&nbsp; &nbsp;	&nbsp; #СП4</a>
+    </div>
+
+    <div class="texture"> <h4> <a href="texture.html">Текстуры</a> </h4></div>
+    <div class="mods"> <h4> <a href="mods.html">Моды</a> </h4></div>
+   <div class="city"> <h4><a href="city.html">Города </a> </h4></div>
+
+
+   <!--Texts-->
+   <div class="reklama_txt"><a>Здесь может быть ваша реклама писать в дс Estol#7368</a></div>
+   <div class="txt-sp"> <a>Всё о #СП4</a> </div>
+
+
+
+
+
+    <div id="disqus_thread"></div>
+    <div class="comment"> <a>Отставь свой отзыв по побуду сайта</a> </div>
+
+
+
+
+    <script>
+
+
+    var disqus_config = function () {
+    this.page.identifier = 'index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://sp4.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('button').click(function(){
+           $('ul').toggleClass('active')
+        })
+      })
+    </script>
+
+    <script>
+    AOS.init();
+    </script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
